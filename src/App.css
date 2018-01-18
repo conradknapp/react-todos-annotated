@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+input {
+  font-size: 20px;
+}
+
+.Todo-App {
+  display: inline-block;
+  text-align: left;
+}
+
+.Todo-List ul {
+  list-style: none;
+  padding: 0;
+}
