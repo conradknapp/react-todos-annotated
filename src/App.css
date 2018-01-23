@@ -15,6 +15,7 @@
 
 input {
   font-size: 20px;
+  margin-top: 1em;
 }
 
 .Todo-App {
@@ -25,4 +26,31 @@ input {
 .Todo-List ul {
   list-style: none;
   padding: 0;
+}
+
+.error {
+  display: block;
+  margin-top: 1em;
+  color: darkred;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color: red;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+.footer a {
+  padding: 2px 0;
+}
+
+.footer a.active {
+  font-weight: bold;
 }
